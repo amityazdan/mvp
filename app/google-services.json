@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "280518997050",
+    "firebase_url": "https://groupy-mygroup.firebaseio.com",
+    "project_id": "groupy-mygroup",
+    "storage_bucket": "groupy-mygroup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280518997050:android:4f40c8284865a037",
+        "android_client_info": {
+          "package_name": "com.YazdanAmit.Game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280518997050-l1bf642e8iqm2kk10sc8vf2o8jtguvi3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.YazdanAmit.Game",
+            "certificate_hash": "dee53e7e58a3a2de8630963e6aa069bf3d780aba"
+          }
+        },
+        {
+          "client_id": "280518997050-p0purkml46b2umt22lartqjkt6p1o351.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.YazdanAmit.Game",
+            "certificate_hash": "cf9dfe75537cf9a15f04f7b10eef0967497389b4"
+          }
+        },
+        {
+          "client_id": "280518997050-vloq3qpb881dha7r6lihvhgo50b7i09a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.YazdanAmit.Game",
+            "certificate_hash": "1a8257f2e4362ae171e18f795b7020cad879aa04"
+          }
+        },
+        {
+          "client_id": "280518997050-7sdgilagsqjhi45mqntlo5m2a29fhnc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd1T3W5SvxnpmY9FpNUx8LgWQ7vmfp_ZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280518997050-0qgfnfb66pglqit8295077vkpa75mg2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280518997050:android:9ad2784aa9ce33a4",
+        "android_client_info": {
+          "package_name": "com.amit.groupsprojectmvc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280518997050-jmdh1juiesiu0nn7ll3hvo4577v3t02n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amit.groupsprojectmvc",
+            "certificate_hash": "1a8257f2e4362ae171e18f795b7020cad879aa04"
+          }
+        },
+        {
+          "client_id": "280518997050-7sdgilagsqjhi45mqntlo5m2a29fhnc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd1T3W5SvxnpmY9FpNUx8LgWQ7vmfp_ZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280518997050-0qgfnfb66pglqit8295077vkpa75mg2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
