@@ -1,4 +1,4 @@
-package com.amit.groupsprojectmvc;
+package com.amit.groupsprojectmvc.Views;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.amit.groupsprojectmvc.R;
+import com.amit.groupsprojectmvc.RegistrationActivityPresenter;
 
 public class SmsDialog extends Dialog {
     private final RegistrationActivityPresenter registrationActivityPresenter;

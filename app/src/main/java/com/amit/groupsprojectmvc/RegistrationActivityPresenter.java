@@ -9,20 +9,19 @@ import android.support.v4.content.ContextCompat;
 
 public class RegistrationActivityPresenter {
 
-    private final View view;
+    private final RegistrationView view;
     private final Model model;
     private static final int TAG_PERMISSION_CODE = 0;
-    private long SPLASH_TIME = 2000;
+    private long SPLASH_TIME = 500;
 
 
-    public RegistrationActivityPresenter(View view) {
+    public RegistrationActivityPresenter(RegistrationView view) {
         model = Model.getInstance();
-        model.setActivity((Activity) view);
         this.view = view;
     }
 
-    void updateCountryDialCode() {
-        view.updatePhoneText(model.getCountryDialCode());
+    public void updateCountryDialCode() {
+        view.updatePhoneText(model.getCountryDialCode((Activity)view));
     }
 
     public void phoneVerification(String phoneNumber) {
@@ -32,7 +31,7 @@ public class RegistrationActivityPresenter {
                 view.updatePhoneVerificationUI(stage);
             }
         };
-        model.verifyPhoneNumber(phoneNumber, phoneListener);
+        model.verifyPhoneNumber((Activity)view,phoneNumber, phoneListener);
     }
 
     public void verifySms(String codeTxt) {
@@ -42,7 +41,7 @@ public class RegistrationActivityPresenter {
                 view.updatePhoneVerificationUI(stage);
             }
         };
-        model.smsVerify(codeTxt, phoneListener);
+        model.smsVerify((Activity)view,codeTxt, phoneListener);
     }
 
     boolean timeReady = false, userReady = false;
@@ -80,7 +79,7 @@ public class RegistrationActivityPresenter {
 
     }
 
-    public interface View {
+    public interface RegistrationView {
 
         void updatePhoneText(String str);
 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal"
+    android:elevation="5dp"
+    android:layout_height="45dp">
+
+
+    <ImageView
+        android:id="@+id/menuBtn"
+        android:padding="12dp"
+        android:src="@drawable/menu"
+        android:layout_gravity="start"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+
+    <TextView
+        android:id="@+id/actionTitle"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>

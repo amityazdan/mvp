@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#1B1F2E</color>
+    <color name="colorPrimaryDark">#1B1F2E</color>
+    <color name="colorAccent">#E99E89</color>
+    <color name="myBlack">#292A2C</color>
+    <color name="lightBlack">#535D66</color>
+    <color name="myDcolor">#4FA095</color>
+    <!--<color name="myRed">#DF2147</color>-->
+    <color name="myRed">#B96868</color>
+    <color name="magenta">#BAD81139</color>
+
+
+    <color name="c2">#E99E89</color>
+    <color name="c3">#D7C9BE</color>
+    <color name="c4">#A89789</color>
+    <color name="c5">#222E3C</color>
+    <color name="paper">#CCB9A0</color>
+
+
+    <color name="c1">#639E8C</color>
+    //greys
+    <color name="g1">#3C3C3D</color>
+    <color name="g2">#313131</color>
+    <color name="g3">#212121</color>
+    <color name="card">#CCB9A0</color>
+
+
+    <color name="text">#1B1F2E</color>
+
 </resources>

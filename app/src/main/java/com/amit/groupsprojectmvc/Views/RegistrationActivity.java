@@ -1,4 +1,4 @@
-package com.amit.groupsprojectmvc;
+package com.amit.groupsprojectmvc.Views;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,7 +13,11 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-public class RegistrationActivity extends AppCompatActivity implements RegistrationActivityPresenter.View {
+import com.amit.groupsprojectmvc.PhoneVeriStage;
+import com.amit.groupsprojectmvc.R;
+import com.amit.groupsprojectmvc.RegistrationActivityPresenter;
+
+public class RegistrationActivity extends AppCompatActivity implements RegistrationActivityPresenter.RegistrationView {
 
     private FrameLayout loginContainer;
     private View phoneView, splashView;

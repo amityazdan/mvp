@@ -1,0 +1,88 @@
+<android.support.design.widget.NavigationView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_view"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My name"
+                android:textColor="#fff" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/nameEdit"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:padding="7dp"
+                    android:src="@drawable/edit" />
+
+                <EditText
+                    android:id="@+id/naviName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Background sound"
+            android:textColor="#fff" />
+
+        <SeekBar
+            android:id="@+id/soundSeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="100"
+            android:progress="10"
+            android:progressBackgroundTint="#fff"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/privacyPolicy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Privacy Policy"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/naviSave"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="100dp"
+        android:text="SAVE"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:layout_height="wrap_content" />
+</android.support.design.widget.NavigationView>

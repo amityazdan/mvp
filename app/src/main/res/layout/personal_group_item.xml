@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/small_item"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/personalDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:text="num"
+            android:textColor="@color/myRed" />
+
+        <TextView
+            android:id="@+id/personalGroupIdTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:gravity="center"
+            android:text="num"
+
+            android:textColor="@color/text"
+            android:textSize="11dp" />
+
+        <TextView
+            android:id="@+id/personalHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:textColor="@color/text"
+            android:gravity="center"
+            android:text="num"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+</RelativeLayout>
